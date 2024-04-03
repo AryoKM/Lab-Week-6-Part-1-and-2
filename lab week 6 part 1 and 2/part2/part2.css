@@ -1,0 +1,121 @@
+.bg {
+    position: absolute;
+    background-color: #fffd54;
+    height: 80%;
+    width: 100%;
+    padding: 0;
+    top: 0;
+    border-radius: 150px;
+}
+
+.kepala {
+    background-color: #f6c3cb;
+    height: 490px;
+    width: 490px;
+    top: 35px;
+    left: 150px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.hidung {
+    background-color: #fffeff;
+    height: 110px;
+    width: 175px;
+    top: 310px;
+    left: 310px;
+    position: absolute;
+    border-radius: 55%;
+}
+
+.lhidungkiri {
+    background-color: #d039e6;
+    height: 50px;
+    width: 50px;
+    top: 340px;
+    left: 330px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.lhidungkanan {
+    background-color: #d039e6;
+    height: 50px;
+    width: 50px;
+    top: 340px;
+    left: 415px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.matakanan1 {
+    background-color: #ffffff;
+    height: 90px;
+    width: 90px;
+    top: 190px;
+    left: 455px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.matakiri1 {
+    background-color: #ffffff;
+    height: 90px;
+    width: 90px;
+    top: 190px;
+    left: 250px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.matakiri2 {
+    background-color: #000000;
+    height: 50px;
+    width: 50px;
+    top: 195px;
+    left: 280px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.matakanan2 {
+    background-color: #000000;
+    height: 50px;
+    width: 50px;
+    top: 195px;
+    left: 485px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.leaftearposition,.rightearposition {
+    position: absolute;
+    border-radius: 40%;
+    height: 45px;
+    border-right: 75px solid transparent;
+    border-left: 75px solid transparent;
+    border-top: 90px solid #ea3ef6;
+}
+  
+.leaftearposition {
+    transform: rotate(-20deg);
+    margin-top: 50px;
+    margin-left:  180px;
+}
+
+.rightearposition {
+    transform: rotate(20deg);
+    margin-top: 50px;
+    margin-left:  470px;
+}
+
+.mulut {
+  width: 100px;
+  height: 70px;
+  border-bottom: 30px solid black;
+  border-radius: 90%;
+  position: absolute;
+  display: block;
+  margin-top: 380px;
+  margin-left: 330px;
+}
